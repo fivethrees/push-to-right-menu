@@ -1,0 +1,48 @@
+body {
+  font-family: "Arial", Serif;
+  overflow-x: hidden;
+  background-color: green;
+  margin: 0px;
+}
+.material-icons {
+    color: black;
+    font-size: 60px !important;
+}
+.navbar {
+  position: fixed;
+}
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 0px;
+  transition: 0.7s;
+}
+#open-slide {
+  transition: 0.7s;
+}
+#main {
+  padding: 60px;
+  transition: margin-left 0.7s;
+  background-color: blue;
+  height: 100vh;
+
+}
+.side-nav a, li{
+  padding-left: 15px;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  font-size: 22px;
+
+}
+
+#rest-of-nav {
+  width: 100vw;
+}
